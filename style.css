@@ -1,6 +1,10 @@
 *, *::after{
   border-sizing: border-box;
 }
+body{
+  width: 85%;
+  margin: auto;
+}
 .hero {
   padding: 0 0 25px 0;
   border-bottom: 2px solid #CCC;
