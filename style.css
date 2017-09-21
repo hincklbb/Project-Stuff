@@ -4,24 +4,66 @@
 body{
   width: 85%;
   margin: auto;
+  color: green;
 }
-.hero {
+.text1 {
   padding: 0 0 25px 0;
   border-bottom: 2px solid #CCC;
   margin: 0 0 80px 0;
   display: inline-block;
 }
-.hero-text {
-  width: 50%;
+.text1-text {
+  width: 15%;
   float: left;
-  padding-right: 25px;
+  padding-right: 10%;
+  color:black;
 }
-.hero-image {
-  width: 50%;
+.text1-image {
+  width: 60%;
   float: left;
+  padding-right: 60px;
 }
-.hero::after{
+.text1::after {
   content: "";
   clear: both;
   display: table;
+}
+.text2 {
+  padding: 0 0 25px 0;
+  border-bottom: 2px solid #CCC;
+  margin: 0 0 80px 0;
+  display: inline-block;
+}
+.text2-text {
+  width: 15%;
+  float: left;
+  padding-right: 10%;
+  color:black;
+}
+.text2-image {
+  width: 60%;
+  float: left;
+  padding-right: 60px;
+}
+.text2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text3 {
+  padding: 0 0 25px 0;
+  border-bottom: 2px solid #CCC;
+  margin: 0 0 80px 0;
+  display: inline-block;
+}
+.text3-text {
+  width: 15%;
+  float: left;
+  padding-right: 10%;
+  color:black;
+}
+.text3-image {
+  width: 60%;
+  float: left;
+  padding-right: 60px;
 }
